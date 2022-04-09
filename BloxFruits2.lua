@@ -5841,7 +5841,7 @@ end)
 
 AutoFarmTab:Line()
 AutoFarmTab:Label("Auto Farm Setting",true)
-AUTOHAKI = true
+AUTOHAKI = false
 AutoFarmTab:Toggle("Auto Haki", AUTOHAKI,function(Value)
 	AUTOHAKI = Value  
 end)
