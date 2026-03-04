@@ -22,11 +22,8 @@ function ESP.AddESP(
     mutationtext: string,
     mutationColor: Color3,
 
-    distancetext: string,
-
     enableName: boolean?,
-    enableMutation: boolean?,
-    enableDistance: boolean?
+    enableMutation: boolean?
 )
     local folder = workspace:FindFirstChild(folderName)
     if not folder then
@@ -63,18 +60,6 @@ function ESP.AddESP(
         mutation.TextColor3 = mutationColor
         mutation.TextStrokeTransparency = 0.5
         mutation.TextScaled = true
-    end
-
-    if enableDistance then
-        local distance = Instance.new("TextLabel")
-        distance.Parent = ESPBillboardGui
-        distance.Size = UDim2.new(1, 0, size, 0)
-        distance.Position = UDim2.new(0, 0, 0.4, 0)
-        distance.BackgroundTransparency = 1
-        distance.Text = distancetext
-        distance.TextColor3 = color
-        distance.TextStrokeTransparency = 0.5
-        distance.TextScaled = true
     end
 end
 
