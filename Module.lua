@@ -57,7 +57,7 @@ function ESP.AddESP(
         local mutation = Instance.new("TextLabel")
         mutation.Parent = ESPBillboardGui
         mutation.Size = UDim2.new(1, 0, size, 0)
-        mutation.Position = UDim2.new(0, 0, 0.3, 0)
+        mutation.Position = UDim2.new(0, 0, 0.2, 0)
         mutation.BackgroundTransparency = 1
         mutation.Text = mutationtext
         mutation.TextColor3 = mutationColor
@@ -69,7 +69,7 @@ function ESP.AddESP(
         local distance = Instance.new("TextLabel")
         distance.Parent = ESPBillboardGui
         distance.Size = UDim2.new(1, 0, size, 0)
-        distance.Position = UDim2.new(0, 0, 0.6, 0)
+        distance.Position = UDim2.new(0, 0, 0.4, 0)
         distance.BackgroundTransparency = 1
         distance.Text = distancetext
         distance.TextColor3 = color
