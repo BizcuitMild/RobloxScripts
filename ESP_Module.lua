@@ -16,6 +16,7 @@ function ESP.AddESP(
     folderName: string,
     text: string,
     size: number,
+    pos: number,
     adornee: BasePart | Model,
     color: Color3,
     enablehighlight: boolean?
@@ -36,6 +37,7 @@ function ESP.AddESP(
     local ESPTextLabel = Instance.new("TextLabel")
     ESPTextLabel.Parent = ESPBillboardGui
     ESPTextLabel.Size = UDim2.new(1, 0, size, 0)
+    ESPTextLabel.Position = UDim2.new(0, 0, pos, 0)
     ESPTextLabel.BackgroundTransparency = 1
     ESPTextLabel.Text = text
     ESPTextLabel.TextColor3 = color
