@@ -37,7 +37,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function()
 end
 
 local Themes = {
-    Names = {"Dark", "Darker", "Zyrion", "AMOLED", "Light", "Balloon", "SoftCream", "Aqua", "Amethyst", "Rose", "Midnight",
+    Names = {"Dark", "Darker", "Zyrion", "CupPink", "AMOLED", "Light", "Balloon", "SoftCream", "Aqua", "Amethyst", "Rose", "Midnight",
              "Forest", "Sunset", "Ocean", "Emerald", "Sapphire", "Cloud", "Grape", "Bloody", "Arctic"},
     Dark = {
         Name = "Dark",
@@ -127,6 +127,32 @@ local Themes = {
         DialogInputLine = Color3.fromRGB(255, 225, 205),
         Text = Color3.fromRGB(247, 227, 233),
     },
+    CupPink = {
+		Name = "CupPink",
+        Accent = Color3.fromRGB(255, 100, 245),
+		AcrylicMain = Color3.fromRGB(30, 30, 30),
+		AcrylicBorder = Color3.fromRGB(60, 60, 60),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
+		AcrylicNoise = 0.94,
+		TitleBarLine = Color3.fromRGB(255, 100, 245),
+		Tab = Color3.fromRGB(255, 100, 245),
+		Element = Color3.fromRGB(70, 70, 70),
+		ElementBorder = Color3.fromRGB(25, 25, 25),
+		InElementBorder = Color3.fromRGB(55, 55, 55),
+		ElementTransparency = 0.82,
+		DropdownFrame = Color3.fromRGB(120, 120, 120),
+		DropdownHolder = Color3.fromRGB(35, 35, 35),
+		DropdownBorder = Color3.fromRGB(25, 25, 25),
+		Dialog = Color3.fromRGB(35, 35, 35),
+		DialogHolder = Color3.fromRGB(25, 25, 25),
+		DialogHolderLine = Color3.fromRGB(255, 100, 245),
+		DialogButton = Color3.fromRGB(35, 35, 35),
+		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
+		DialogBorder = Color3.fromRGB(50, 50, 50),
+		DialogInput = Color3.fromRGB(45, 45, 45),
+		DialogInputLine = Color3.fromRGB(255, 100, 245),
+		Text = Color3.fromRGB(247, 227, 233),
+	},
     AMOLED = {
         Name = "AMOLED",
         Accent = Color3.fromRGB(255, 255, 255),
