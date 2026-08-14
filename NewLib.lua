@@ -8107,9 +8107,9 @@ local Icons = {
     ["lucide-webhook"] = "rbxassetid://17320556264",
     ["lucide-dumbbell"] = "rbxassetid://18273453053",
 
-    ["lucide-zyrion"] = "rbxassetid://85565655226280",
-    ["lucide-zyrion-icon"] = "rbxassetid://87997792051678",
-    ["lucide-zyrionicon"] = "rbxassetid://132253200980782"
+    ["lucide-zy-rion"] = "rbxassetid://85565655226280",
+    ["lucide-zy-rion-icon"] = "rbxassetid://87997792051678",
+    ["lucide-zy-rionicon"] = "rbxassetid://132253200980782"
 }
 
 function Library:GetIcon(Name)
